@@ -3,7 +3,7 @@ devtest
 
 A simple test to show that a developer knows how to use basic tools and understands the basics of a language.
 
-#tasks
+#Tests
 Make sure to fork this repository and submit a pull request with the requested task completed.
 
 1. PHP Test: Create a DevTest Class
