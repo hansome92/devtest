@@ -8,11 +8,13 @@ class RemoteDevTest extends PHPUnit_Framework_TestCase
   
   public function testReserve()
   {
-    // test to ensure that the object from an fsockopen is valid
-	$text = "test";
-	$devtest = new DevTest($text);
+    
+	$input = "test";
+	$devtest = new DevTest($input);
+	$reverse = $devtest->reverse();
     $res = "tset";
-    $this->assertTrue($text == $res);
+	
+    $this->assertTrue($reverse == $res);
   }
 }
 ?>
