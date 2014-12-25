@@ -1,0 +1,15 @@
+.container {
+	margin:100px 50px;
+}
+
+.content {
+	margin-left:20px;
+}
+
+input {
+	margin:10px 0;
+}
+
+.error {
+	border:1px solid red;
+}
